@@ -1,0 +1,13 @@
+/*
+  全局 CSS（Tailwind 指令）
+  - 必须包含三条指令：@tailwind base/components/utilities
+  - 可以在本文件继续添加全局样式，例如 body 字体
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 项目级全局样式（可根据设计调整） */
+body {
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
